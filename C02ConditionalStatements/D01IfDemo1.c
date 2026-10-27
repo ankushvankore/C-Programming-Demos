@@ -3,19 +3,19 @@
 int main()
 {
 	int amount;
-	float discount,net;
+	float discount, net;
 	
 	printf("\nEnter amount: ");
 	scanf("%d", &amount);
 	
-	if(amount>=1000)
+	if(amount >= 1000)
 	{
-		discount=amount*0.10;		
+		discount = amount * 0.10;
 	}
-	net=amount-discount;
+	net = amount - discount;	
 	
-	printf("\nDiscount  : %.2f",discount);
-	printf("\nNet amount: %.2f",net);
+	printf("\nDiscount  : %.2f", discount);
+	printf("\nNet amount: %.2f", net);
 	
-	return 0;
+	
 }
