@@ -1,0 +1,21 @@
+#include <stdio.h>
+
+int main()
+{
+	int i = 1; 
+	
+	for(i =1; i <= 50; i++)
+	{
+		if(i % 5 == 0)
+		{
+			break;
+		}
+		else
+		{
+			printf("\n%d", i);
+		}
+		
+	}
+	
+	return 0;
+}
